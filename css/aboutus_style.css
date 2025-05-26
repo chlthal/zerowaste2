@@ -1,0 +1,118 @@
+main{
+    width: 100%; 
+    background-color: white;
+    margin: 0 auto;
+    padding: 0px 0 30px 0
+}
+#first{
+    width: 100%; 
+    height: 700px;
+    background-color: black;
+    margin-bottom: 100px;
+}
+#first>.textbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+}
+#first>.textbox>h1{
+    line-height: 90px;
+    text-align: center;
+    font-size: 40px;
+}
+#first>img{
+    width: 100%;
+    height: 700px;
+}
+
+section{
+    width: 1370px;
+    margin: 0 auto 100px;
+}
+.sec1>h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec2>div{
+    width: 672px;
+    height: 741px; 
+    /* background-color: aliceblue; */
+}
+.sec2>.sec2-text{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 p{
+    font-size: 28px;
+    text-align: center;
+}
+.sec2 img{
+    width: 672px;
+    height: 741px;
+}
+.sec3>.sustainable-principle{
+    width: 1000px;
+    /* background-color: #B6F2D6; */
+    margin: 0 auto;
+}
+.sec3>.sustainable-principle>h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.principle-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.principle-img{
+    width: 416px;
+    height: 556px;
+    background-color: lightskyblue;
+    border-radius: 20%;
+    padding: 100px 0;
+}
+.principle-wrap img{
+    width: 416px;
+    height: 356px;
+}
+.principle-title{
+    width: 330px;
+    margin: 30px 20px;
+    font-size: 20px;
+}
+.principle-text{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.principle-img2{
+    width: 416px;
+    height: 556px;
+    background-color: lightgreen;
+    border-radius: 20%;
+    padding: 100px 0;
+}
+.principle-img3{
+    width: 416px;
+    height: 556px;
+    background-color: lightcoral;
+    border-radius: 20%;
+    padding: 100px 0;
+}
+.sec4{
+    text-align: center;
+}
